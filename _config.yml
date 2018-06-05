@@ -4,8 +4,8 @@ description: Stay Sharpened is a knife sharpenning busieness ran by Tyler Essenm
 cover: assets/images/Cover.jpg
 logo: assets/images/logo.png
 favicon: assets/images/favicon.png
-baseurl: "/hanuman/" # the subpath of your site, e.g. /blog/ or / for root
-url: "https://samanyougarg.com" # the base hostname & protocol for your site
+baseurl: "/StaySharpened/" # the subpath of your site, e.g. /blog/ or / for root
+url: "https://staysharpened.guthub.io" # the base hostname & protocol for your site
 paginate:	5 # The number of posts to show per page on your homepage
 
 # Social
