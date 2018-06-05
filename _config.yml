@@ -1,7 +1,7 @@
 # Site settings
 title: Stay Sharpened 
 description: Stay Sharpened is a knife sharpenning busieness ran by Tyler Essenmacher 
-cover: assets/images/Cover.jpg
+cover: assets/images/Cover.jpeg
 logo: assets/images/logo.png
 favicon: assets/images/favicon.png
 baseurl: "/StaySharpened/" # the subpath of your site, e.g. /blog/ or / for root
