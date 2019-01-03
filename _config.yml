@@ -1,57 +1,28 @@
-# Site settings
-title: Stay Sharpened 
-description: Stay Sharpened is a knife sharpenning busieness ran by Tyler Essenmacher 
-cover: assets/images/Cover.jpg
-logo: assets/images/logo.png
-favicon: assets/images/favicon.png
-baseurl: "/StaySharpened/" # the subpath of your site, e.g. /blog/ or / for root
-url: "https://staysharpened.guthub.io" # the base hostname & protocol for your site
-paginate:	5 # The number of posts to show per page on your homepage
+title: John Smith
+description: My Personal Blog
+author: John Smith
+logo: /hcz-jekyll-blog/static/img/avatar.png
+github: https://github.com/codeasashu
+about: Freelance developer
 
-# Social
-facebook: facebook
-twitter: twitter
-github:  github
+baseurl: "https://codeasashu.github.io/hcz-jekyll-blog"
+url: "https://codeasashu.github.io/hcz-jekyll-blog"
 
-#Additional Pages
-about: about
-contact: contact
-privacy-policy: privacy-policy
+allowsearch: true
 
+disqus_shortname: aboutashu
+google_analytics: UA-72862926-1
 
-permalink: /:title
+share:
+  twitter_username: \#
+  fb_appid: 000000000000
 
 
-# Google Analytics
-analytics_id: ""
+enableTags: true
+tagarray: []
 
-# Build settings
+paginate: 20
+per_page: 20
+paginate_path: "/page:num/"
 markdown: kramdown
-
-kramdown:
-  parse_block_html: true
-
-plugins:
-  - jekyll-paginate
-
-
-# Settings for rake task
-safe: False
-lsi: False
-username: samanyougarg #github username
-repo: hanuman #github repository
-branch: master #branch
-relative_source: ../hanuman/ #source directory
-destination: ../hanuman-pages/ #destination directory
-production_url:  https://samanyougarg.com/
-source_url:  https://github.com/samanyougarg/hanuman #source repository url
-
-exclude:
-  - README.md
-  - Rakefile
-  - Gemfile
-  - Gemfile.lock
-  - changelog.md
-  - "*.Rmd"
-  - vendor
-  - .travis.yml
+gems: [jekyll-paginate, jekyll-gist]
